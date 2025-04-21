@@ -76,7 +76,7 @@ public class AddressbookUI extends UI {
 
         contactList
                 .setContainerDataSource(new BeanItemContainer<>(Contact.class));
-        contactList.setColumnOrder("firstname", "lastName", "gmail");
+        contactList.setColumnOrder("firstname", "lastName", "gmai");
         contactList.removeColumn("id");
         contactList.removeColumn("birthDate");
         contactList.removeColumn("phone");
