@@ -114,18 +114,13 @@
 		</dependency>
 
 				<!-- TESTING -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.7</version>
-			<scope>test</scope>
-		</dependency>
+		
 
 	        <dependency>
                         <groupId>org.seleniumhq.selenium</groupId>
                         <artifactId>selenium-java</artifactId>
                         <version>4.22.0</version>
-			<scope>test2</scope>
+			<scope>test</scope>
                 </dependency>
 
 
